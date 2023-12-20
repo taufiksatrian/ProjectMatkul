@@ -20,9 +20,9 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
   - [Contact](#contact)
 
 ## Struktur File
-- [Kode](file/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
-- [Papper](file/H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan proyek.
-- [Dataset](file/dataset.csv): Dataset yang digunakan dalam proyek.
+- [Kode](Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
+- [Papper](Dokumen/H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan proyek.
+- [Dataset](Dokumen/dataset.csv): Dataset yang digunakan dalam proyek.
 
 ## General Information
 - Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
@@ -58,8 +58,8 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 - Jalankan program
 
 ## Usage
-1. Unduh file [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb)
-2. Unduh file dataset [Dataset](dataset.csv)
+1. Unduh file [Kode](Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb)
+2. Unduh file dataset [Dataset](Dokumen/dataset.csv)
 3. Buka Google Colab, lalu upload file .ipynb.
 4. Klik pada file dan pilih "Open in Colab".
 5. Upload dataset saat diminta.
