@@ -4,16 +4,16 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 
 ## Table of Contents
 - [Struktur File](#struktur-file)
-- [Informasi Umum](#informasi-umum)
-- [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Fitur](#fitur)
-- [Tangkapan Layar](#tangkapan-layar)
+- [General Information](#general-information)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [screenshots](#screenshots)
 - [Setup](#setup)
-- [Penggunaan](#penggunaan)
-- [Status Proyek](#status-proyek)
-- [Ruang untuk Perbaikan](#ruang-untuk-perbaikan)
-- [Pengakuan](#pengakuan)
-- [Kontak](#kontak)
+- [Usage](#usage)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## Struktur File
 - [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
@@ -21,7 +21,8 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 - [Dataset](dataset.csv): Dataset yang digunakan dalam proyek.
 
 ## General Information
-Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/).
+- Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
+- Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU).
 
 ## Technologies Used
 - Google Colab
@@ -53,8 +54,8 @@ Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/).
 - Jalankan program
 
 ## Usage
-1. Unduh file [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
-2. Unduh file dataset [Dataset](dataset.csv): Dataset yang digunakan dalam proyek.
+1. Unduh file [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb)
+2. Unduh file dataset [Dataset](dataset.csv)
 3. Buka Google Colab, lalu upload file .ipynb.
 4. Klik pada file dan pilih "Open in Colab".
 5. Upload dataset saat diminta.
