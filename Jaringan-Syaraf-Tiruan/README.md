@@ -16,7 +16,7 @@ berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik berdasar
 0.1658 dan nilai accuracy sebesar 0.9614.
 
 ## Table of Contents
-- [Struktur File](##-struktur-file)
+- [Struktur File](##struktur-file)
 - [Informasi Umum](#informasi-umum)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Fitur](#fitur)
