@@ -16,7 +16,7 @@ berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik berdasar
 0.1658 dan nilai accuracy sebesar 0.9614.
 
 ## Table of Contents
-- [Struktur File](##Struktur-File)
+- [Struktur File](##struktur-file)
 - [Informasi Umum](#informasi-umum)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Fitur](#fitur)
@@ -29,9 +29,9 @@ berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik berdasar
 - [Kontak](#kontak)
 
 ## Struktur File
-- [Kode]      (H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
-- [Papper]    (H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan project.
-- [Dataset]   (dataset.csv): Dataset yang digunakan dalam project.
+- [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb)  : Berisi kode program utama.
+- [Papper](H1D020028_H1D020041_Tugas_Project_JST.pdf)             : Laporan project.
+- [Dataset](dataset.csv)                                          : Dataset yang digunakan dalam project.
 
 ## General Information
 Dataset berasal dari https://data.jakarta.go.id/
