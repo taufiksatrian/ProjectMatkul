@@ -1,8 +1,6 @@
 # Klasifikasi Kualitas Udara di Provinsi DKI Jakarta Menggunakan Metode Backpropagation
 
-Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar bagi seluruh umat manusia untuk mempertahankan kehidupan yang layak. Salah satu aspek penting dari lingkungan yang baik adalah kualitas udara. Proses metabolisme pada tubuh makhluk hidup tidak dapat berlangsung tanpa adanya oksigen yang berasal dari udara. Udara juga mengandung zat-zat seperti karbon monoksida, karbon dioksida, sulfur dioksida, nitrogen oksida, ozon, dan zat lainnya. Jika kandungannya melebihi batas wajar, dapat menyebabkan masalah serius pada kesehatan manusia.
-
-Di kota besar seperti DKI Jakarta, pencemaran udara menjadi masalah serius yang dihadapi oleh masyarakat. Pada tanggal 23 Juli 2019 pukul 17.00, DKI Jakarta menempati urutan 16 dari 100 negara teratas dengan polusi udara terburuk, menurut situs pengamat kualitas udara aqicn.org. Oleh karena itu, untuk memberikan informasi yang akurat dan cepat, perlu adanya sistem klasifikasi kualitas udara. Salah satu metode yang dapat digunakan adalah Backpropagation. Pada penelitian ini, klasifikasi kualitas udara di Provinsi DKI Jakarta menggunakan metode Backpropagation berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik, dengan nilai loss function sebesar 0.1658 dan nilai akurasi sebesar 0.9614.
+Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar bagi seluruh umat manusia untuk mempertahankan kehidupan yang layak. Oleh karena itu, manusia sangat membutuhkan kualitas lingkungan hidup yang baik, salah satunya adalah kualitas udara. Proses metabolisme yang terjadi pada tubuh makhluk hidup tidak dapat berlangsung tanpa adanya oksigen yang berasal dari udara. Udara juga memiliki beberapa kandungan zat-zat lain seperti karbon monoksida, karbon dioksida, sulfur dioksida, nitrogen oksida, ozon, dan zat lainnya yang, apabila melebihi batas wajar, dapat menyebabkan masalah serius pada kesehatan manusia. Di kota besar seperti DKI Jakarta, pencemaran udara merupakan salah satu masalah serius yang dihadapi oleh masyarakat. Berdasarkan situs pengamat kualitas udara aqicn.org pada tanggal 23 Juli 2019 pukul 17.00, DKI Jakarta menempati urutan 16 dari 100 negara teratas dengan polusi udara terburuk. Oleh karena itu, untuk memberikan informasi yang akurat dan cepat, perlu adanya sistem untuk mengklasifikasikan kualitas udara, salah satu metode yang dapat digunakan adalah Backpropagation. Pada penelitian ini, klasifikasi kualitas udara di Provinsi DKI Jakarta menggunakan metode Backpropagation berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik berdasarkan nilai loss function sebesar 0.1658 dan nilai accuracy sebesar 0.9614.
 
 ## Table of Contents
 - [Struktur File](#struktur-file)
@@ -18,14 +16,14 @@ Di kota besar seperti DKI Jakarta, pencemaran udara menjadi masalah serius yang 
 - [Kontak](#kontak)
 
 ## Struktur File
-- [**Kode**](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
-- [**Laporan Proyek**](H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan lengkap proyek.
-- [**Dataset**](dataset.csv): Dataset yang digunakan dalam proyek.
+- [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
+- [Papper](H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan proyek.
+- [Dataset](dataset.csv): Dataset yang digunakan dalam proyek.
 
-## Informasi Umum
-Dataset diperoleh dari [data.jakarta.go.id](https://data.jakarta.go.id/).
+## General Information
+Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/).
 
-## Teknologi yang Digunakan
+## Technologies Used
 - Google Colab
 - Python
 - NumPy
@@ -34,27 +32,42 @@ Dataset diperoleh dari [data.jakarta.go.id](https://data.jakarta.go.id/).
 - Matplotlib
 - Scikit-learn
 
-## Fitur
-(Deskripsi fitur-fitur utama dari proyek Anda.)
+## Features
+(Anda dapat menambahkan deskripsi fitur-fitur utama dari proyek Anda di sini.)
 
 ## Tangkapan Layar
-(Gunakan tangkapan layar atau grafik yang mencerminkan hasil proyek Anda.)
+(Anda dapat menambahkan tangkapan layar atau grafik yang mencerminkan hasil proyek Anda di sini.)
 
 ## Setup
-(Panduan singkat tentang cara mengatur proyek ini di lingkungan pengembangan lokal.)
+#### Jupyter Notebook
+- Instalasi Python
+- Instalasi library: pandas, scikit-learn, tensorflow
+- Instalasi Jupyter Notebook
+- Jalankan Jupyter Notebook
 
-## Penggunaan
-(Instruksi tentang cara menggunakan proyek ini.)
+#### Google Colab
+- Login ke akun Google
+- Buka Google Colab
+- Upload file .ipynb
+- Upload dataset
+- Jalankan program
 
-## Status Proyek
-**Selesai:** Proyek ini telah selesai dan mendapatkan nilai A pada mata kuliah Jaringan Syaraf Tiruan.
+## Usage
+1. Unduh file [Kode](H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
+2. Unduh file dataset [Dataset](dataset.csv): Dataset yang digunakan dalam proyek.
+3. Buka Google Colab, lalu upload file .ipynb.
+4. Klik pada file dan pilih "Open in Colab".
+5. Upload dataset saat diminta.
+6. Jalankan program dan mulailah eksplorasi!
 
-## Ruang untuk Perbaikan
-- Proyek dapat dikembangkan lebih lanjut untuk tahap deployment.
-- Gunakan Streamlit untuk deployment agar model dapat digunakan untuk prediksi data baru.
+## Project Status
+Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Jaringan Syaraf Tiruan.
 
-## Pengakuan
-Terima kasih kepada Asha sebagai partner dalam mengerjakan proyek mata kuliah ini.
+## Room for Improvement
+Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
 
-## Kontak
-Dibuat oleh @taufiksatrian - jangan ragu untuk menghubungi saya!
+## Acknowledgements
+Terima kasih kepada Asha selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+
+## Contact
+Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
