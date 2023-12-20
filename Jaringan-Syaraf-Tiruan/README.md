@@ -38,10 +38,10 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 - Scikit-learn
 
 ## Features
-(Anda dapat menambahkan deskripsi fitur-fitur utama dari proyek Anda di sini.)
+- Klasifikasi kualitas udara
 
 ## Tangkapan Layar
-(Anda dapat menambahkan tangkapan layar atau grafik yang mencerminkan hasil proyek Anda di sini.)
+
 
 ## Setup
 #### Jupyter Notebook
