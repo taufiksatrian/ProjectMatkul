@@ -71,6 +71,7 @@ pm10, pm25, so2, co2, co, no2, max, critical, dan categori
 | 2021-01-05    | DKI1 (Bunderan HI)| 38   | 53   | 24  | 6  | 31  | 9   | 53  | pm25     | SEDANG   |
 
 
+
 ## Technologies Used
 - Google Colab
 - Python
