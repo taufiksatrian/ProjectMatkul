@@ -29,6 +29,8 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 ### Dataset
 Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU) Tahun 2021. Dataset ini berisi mengenai Indeks Standar Pencemar Udara (ISPU) yang diukur dari 5 stasiun pemantau kualitas udara (SPKU) yang ada di Provinsi DKI Jakarta Tahun 2021. Penjelasan variabel dari data diatas sebagai berikut :
 
+|     | Deskripsi |
+| --- | --------- |
 
 |          | Deskripsi |
 |     | Deskripsi |
