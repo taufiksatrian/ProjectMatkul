@@ -61,15 +61,9 @@ Variabel yang digunakan untuk penelitian ini sebagai berikut
 #### 1. Pengumpulan Data
 Dataset yang digunakan untuk klasifikasi kualitas udara di Provinsi DKI Jakarta berjumlah 1825 dengan 11 variabel terdiri dari tanggal, stasiun,
 pm10, pm25, so2, co2, co, no2, max, critical, dan categori
-```python
-import pandas as pd
-df = pd.read_csv('dokumen/dataser.csv')
 | Tanggal  | Stasiun  | PM10  | PM25  | SO2  | CO2  | CO  | NO2  | Max  | Critical  | Kategori  |
 |----------|----------|-------|-------|------|------|-----|------|-----|-----------|-----------|
-{% for index, row in df.iterrows() %}
-| {{ row['tanggal'] }} | {{ row['stasiun'] }} | {{ row['pm10'] }} | {{ row['pm25'] }} | {{ row['so2'] }} | {{ row['co2'] }} | {{ row['co'] }} | {{ row['no2'] }} | {{ row['max'] }} | {{ row['critical'] }} | {{ row['kategori'] }} |
-{% endfor %}
-```
+
 
 
 ## Technologies Used
