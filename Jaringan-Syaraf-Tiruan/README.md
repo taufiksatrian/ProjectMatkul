@@ -61,7 +61,7 @@ Variabel yang digunakan untuk penelitian ini sebagai berikut
 #### 1. Pengumpulan Data
 Dataset yang digunakan untuk klasifikasi kualitas udara di Provinsi DKI Jakarta berjumlah 1825 dengan 11 variabel terdiri dari tanggal, stasiun,
 pm10, pm25, so2, co2, co, no2, max, critical, dan categori
-**Data Indeks Standar Pencemaran Udara (ISPU) pada Bulan Januari Tahun 2021**
+/nTabel Data Indeks Standar Pencemaran Udara (ISPU) pada Bulan Januari Tahun 2021
 | Tanggal       | Stasiun         | PM10 | PM25 | SO2 | CO | O3  | NO2 | Max | Critical | Kategori |
 |---------------|-----------------|------|------|-----|----|-----|-----|-----|----------|----------|
 | 2021-01-01    | DKI1 (Bunderan HI)| 38   | 53   | 29  | 6  | 31  | 13  | 53  | pm25     | SEDANG   |
