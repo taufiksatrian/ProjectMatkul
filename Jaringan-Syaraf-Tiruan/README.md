@@ -25,10 +25,11 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 - [Dataset](Dokumen/dataset.csv): Dataset yang digunakan dalam proyek.
 
 ## General Information
-- Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
+### Project Mata Kuliah
+Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
+
 ### Dataset
 Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU) Tahun 2021. Dataset ini berisi mengenai Indeks Standar Pencemar Udara (ISPU) yang diukur dari 5 stasiun pemantau kualitas udara (SPKU) yang ada di Provinsi DKI Jakarta Tahun 2021. Penjelasan variabel dari data diatas sebagai berikut :
-
 | No | Variabel | Deskripsi |
 | ----------- | :---------: | ---------- |
 | 1 | tanggal | Tanggal pengukuran kualitas udara |
@@ -42,6 +43,16 @@ Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks St
 | 9 | max | Nilai ukur paling tinggi dari seluruh parameter yang diukur dalam waktu yang sama |
 | 10 | critical | Parameter yang hasil pengukurannya paling tinggi |
 | 11 | categori | Kategori hasil perhitungan indeks standar pencemaran udara |
+
+Variabel yang digunakan untuk penelitian ini sebagai berikut
+| No | Variabel | Deskripsi |
+| ----------- | :---------: | ---------- |
+| 1 | pm10 | Partikulat salah satu parameter yang diukur |
+| 2 | pm25 | Partikulat salah satu parameter yang diukur |
+| 3 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur |
+| 4 | co | Carbon Monoksida salah satu parameter yand diukur |
+| 5 | o3 | Ozon salah satu parameter yang diukur |
+| 6 | categori | Kategori hasil perhitungan indeks standar pencemaran udara |
 
 ## Technologies Used
 - Google Colab
