@@ -98,7 +98,7 @@ Tabel Dataset Hasil Data Cleaning
 
 Data Transformation menggunakan metode normalisasi Min-Max dan menggunakan Label Encoder untuk memberikan label pada data output
 
-Tabel Dataset Hasil Data Cleaning
+Tabel Dataset Hasil Data Transformation
 | pm10      | pm25      | so2       | co        | o3        | no2       | categori   |
 |-----------|-----------|-----------|-----------|-----------|-----------|------------|
 | 0.140244  | 0.248447  | 0.3375    | 0.097561  | 0.160839  | 0.161290  | 1          |
