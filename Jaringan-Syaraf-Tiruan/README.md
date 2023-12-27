@@ -107,7 +107,7 @@ Split Data atau membagi dataset menjadi data training dan data testing diperluka
 Pembangunan model menggunakan model backpropagation dengan model arsitektur Sequential. Input layer menggunakan fungsi aktivasi ReLU dengan jumlah units 6. Satu hidden layer menggunakan fungsi aktivasi ReLU dengan jumlah units 28. Output layer menggunakan fungsi aktivasi Softmax dengan jumlah units 3. Model backpropagation dibangun melalui beberapa tahap compile. Tahap compile menggunakan optimizer 'adam' untuk learning rate, loss function 'sparse_categorical_crossentropy' untuk klasifikasi multi-class, dan metrics 'accuracy' untuk menilai kinerja model.
 
 Gambar Arsitektur Model
-![model_architecture](https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76)
+<img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76">
 
 
 #### 5. Pengujian Model Backpropagation
@@ -132,6 +132,23 @@ Data Klasifikasi Kualitas Udara di Provinsi DKI Jakarta 2021
 
 <img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/086fa2c1-2935-41c3-a059-a798fdea6dbd">
 
+
+#### Kesimpulan
+Klasifikasi kualitas udara di Provinsi DKI Jakarta menggunakan **metode Backpropagation** berhasil diterapkan dengan hasil klasifikasi yang sangat baik berdasarkan **nilai loss function sebesar 0.1658** dan **nilai accuracy sebesar 0.9614**.
+
+**Kategori "Sedang"**:
+Jumlah data yang masuk ke dalam kategori ini paling dominan, yaitu sebanyak 1147 observasi.
+Kesimpulan: Kualitas udara pada kategori "Sedang" memiliki frekuensi tertinggi, menunjukkan bahwa sebagian besar waktu di Provinsi DKI Jakarta pada tahun 2021, kualitas udara berada dalam kategori ini.
+
+**Kategori "Tidak Baik"**:
+Jumlah data pada kategori "Tidak Baik" adalah 245 observasi.
+Kesimpulan: Meskipun kategori "Tidak Baik" memiliki frekuensi yang lebih rendah dibanding kategori "Sedang", tetapi jumlahnya cukup signifikan. Hal ini menunjukkan bahwa ada periode tertentu di mana kualitas udara memburuk dan masuk ke dalam kategori "Tidak Baik".
+
+**Kategori "Baik":**
+Jumlah data pada kategori "Baik" adalah 125 observasi.
+Kesimpulan: Kategori "Baik" memiliki frekuensi yang lebih rendah, menunjukkan bahwa kondisi kualitas udara yang baik terjadi pada sebagian kecil waktu.
+
+Secara umum, kualitas udara di Provinsi DKI Jakarta pada tahun 2021 didominasi oleh kategori "Sedang", tetapi juga terdapat periode tertentu dengan kualitas udara yang memburuk (kategori "Tidak Baik") dan waktu yang lebih terbatas dengan kualitas udara yang baik (kategori "Baik").
 
 ## Technologies Used
 - Google Colab
