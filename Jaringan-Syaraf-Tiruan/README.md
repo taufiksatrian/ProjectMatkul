@@ -101,6 +101,12 @@ Tabel Dataset Hasil Data Cleaning
 Split Data atau membagi dataset menjadi data training dan data testing diperlukan sebelum melakukan pemodelan. Hasil dari split data dengan perbandingan data training dan testing 80:20 menggunakan ‘test_size’ sebesar 0.2 serta menggunakan ‘random_state’ sebesar 42 untuk menginisialisasi data secara acak, menghasilkan data training dengan jumlah data 1213 dan data testing dengan jumlah data 304.
 
 #### 4. Pembangunan Model Backpropagation
+Pembangunan model menggunakan model backpropagation dengan model arsitektur Sequential. Input layer menggunakan fungsi aktivasi ReLU dengan jumlah units 6. Satu hidden layer menggunakan fungsi aktivasi ReLU dengan jumlah units 28. Output layer menggunakan fungsi aktivasi Softmax dengan jumlah units 3. Model backpropagation dibangun melalui beberapa tahap compile. Tahap compile menggunakan optimizer 'adam' untuk learning rate, loss function 'sparse_categorical_crossentropy' untuk klasifikasi multi-class, dan metrics 'accuracy' untuk menilai kinerja model.
+
+Gambar Arsitektur Model
+![model_architecture](https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76)
+
+
 #### 5. Pengujian Model Backpropagation
 
 Tabel Hasil Pengujian 
