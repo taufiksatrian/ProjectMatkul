@@ -5,7 +5,7 @@ Kepuasan masyarakat terhadap kinerja Kepolisian Negara Republik Indonesia (Polri
 <img width="1200" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/ef1cdfde-41bb-4989-9ddb-b57a1c003856">
 
 ## Table of Contents
-- [Analisis Sentimen Kepercayaan Masyarakat Terhadap Polisi Republik Indonesia Menggunakan Metode Klasifikasi Naive Bayes dan K-Nearest Neighbor (KNN)](#Analisis-Sentimen-Kepercayaan-Masyarakat-Terhadap-Polisi-Republik-Indonesia-Menggunakan-Metode-Klasifikasi-Naive-Bayes-dan-K-Nearest-Neighbor-(KNN))
+- [Analisis Sentimen Kepercayaan Masyarakat Terhadap Polisi Republik Indonesia Menggunakan Metode Klasifikasi Naive Bayes dan K-Nearest Neighbor (KNN)](#analisis-sentimen-kepercayaan-masyarakat-terhadap-polisi-republik-indonesia-menggunakan-metode-klasifikasi-naive-bayes-dan-k-nearest-neighbor-knn)
   - [Table of Contents](#table-of-contents)
   - [File](#file)
   - [General Information](#general-information)
@@ -29,3 +29,85 @@ Kepuasan masyarakat terhadap kinerja Kepolisian Negara Republik Indonesia (Polri
 <a href="https://github.com/taufiksatrian/ProjectMatkul/blob/main/Text-Mining/H1D020028_H1D020046_TEXT%20MINING_PROJEK%20AKHIR.pdf" title="Laporan project" target="_blank">
   <img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/cf1f8ca4-d1c9-4443-806c-4af8afb8cccc" alt="Laporan project" style="width: 500px">
 </a>
+
+
+## General Information
+### Project Mata Kuliah
+Project disusun untuk memenuhi penilaian akhir mata kuliah Text Mining Semester 5 Tahun 2022
+
+### Latar Belakang
+Kepuasan masyarakat terhadap kinerja Kepolisian Negara Republik Indonesia (Polri) merupakan bagian penting, salah satu indikator penentu keberhasilan Polri. Baik buruknya Polri tidak hanya ditentukan ukuran yang ditetapkan secara internal, namun juga ditentukan oleh kepuasan masyarakat terhadap kinerja Polri. Tingkat kepercayaan masyarakat terhadap kinerja Polri telah menunjukkan peningkatan dari tahun ke tahun, ditunjukkan oleh beberapa hasil survei yang dilakukan, baik oleh lembaga survei eksternal (Indo Barometer dan Litbang Kompas) maupun Puslitbang Polri, menunjukkan beberapa layanan kepolisian yang dirasakan publik masih kurang.
+
+### Tujuan
+Penelitian ini bertujuan untuk mengetahui opini masyarakat terhadap polisi di Twitter berdasarkan tiga klasifikasi, yaitu komentar positif, netral, dan negatif. Metode NBC dan KNN dipilih karena tingkat akurasi yang tinggi, mudah untuk dipahami, dan memiliki cepat dalam mengklasifikasi data. Penelitian ini diharapkan mampu menjelaskan langkah-langkah secara terstruktur dalam mengimplementasikan metode NBC dan K-Nearest Neighbor (KNN) dalam mengklasifikasi teks. Analisis Sentimen Masyarakat terhadap polisi berdasarkan Opini dari Twitter Menggunakan Metode Naive Bayes Classifier (NBC) dan K-Nearest Neighbor (KNN) melakukan klasifikasi sentimen analisis terhadap komentar atau cuitan dari masyarakat terhadap polisi. Komentar tersebut diambil melalui Twitter dengan beberapa tahapan, yaitu pengumpulan data, preprocessing data, Labeling, Feature extractions menggunakan model BOW dan TF-IDF klasifikasi text dan evaluasi.
+
+### Metode Penelitian
+
+
+### Dataset
+Dataset berisi kumpulan data tweet dari Twitter yang dikumpulkan menggunakan metode crawling. Dataset ini mencakup informasi seperti tanggal, username, dan teks tweet yang dapat digunakan untuk pemahaman lebih lanjut terkait topik atau isu yang sedang dibahas di platform Twitter.
+
+### Hasil dan Pembahasan
+#### 1. Pengumpulan Data
+Hasil crawling data dengan memasukkan kata kunci polisi dan mensetting jumlah data sebanyak 1000 tweet menggunakan library
+snscrapper pada python.
+
+Tabel Hasil Crawling Data
+| Datatime                   | Username      | Text                                                                                                                                   |
+|-----------------------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| 2022-10-31 23:59:50+00:00  | Polsek_Pdr442 | Sambang obyek vital Bhabinkamtibmas AIPTU Siswanto berikan himbauan kamtibmas dan tetap menerapkan protokol kesehatan. ...              |
+| 2022-10-31 23:59:04+00:00  | joekampret1   | Ini arah kudeta boss Knp Polri dan TNI diem sja Sebelum mereka bergerak, tangkap dulu orang2 nya. Tindakan humanis gk cocok bwt mereka. ...   |
+| 2022-10-31 23:58:45+00:00  | el_f4hm1      | @GrangerKeren @GratisTerbaik @CCICPolri @DivHumas_Polri Brapa % yg meninggal atau KIPI berat dibanding yg hidup dan sehat?.                   |
+| 2022-10-31 23:58:44+00:00  | Ky46W1        | @tvOneNews Bisa kasih contoh dong dri bapakÂ² kepolisian @DivHumas_Polri ...                                                              |
+| 2022-10-31 23:58:12+00:00  | NunoenkZidan  | @olvaholvah @DivHumas_Polri @ListyoSigitP @KomnasPerempuan @KomnasHAM Pantesan gk ngelawan ternyata d pukulin kakanya krn gk nungguin ...       |
+| ... | ... | ... |
+| 2022-10-31 14:38:10+00:00  | NTMC_Info     | Pantauan Langsung Arus Lalu Lintas Hari Ini Bersama Briptu Anizha pukul 20.00 wib, Senin 31 Oktober 2022 melalui CCTV NTMC Polri. ...         |
+| 2022-10-31 14:38:03+00:00  | inilahdotcom   | Brigjen Hendra Kurniawan Dipecat Polri, Dianggap Berbuat Tercela Terkait Kasus Brigadir J ...                                            |
+| 2022-10-31 14:37:47+00:00  | Adh1stya      | @UtangJpu @DivHumas_Polri                                                                                                             |
+| 2022-10-31 14:37:39+00:00  | jiggle2222    | @kylantower @sayainiultramen @mazzini_gsp Sementara brigjen hendra seorang pati polri mengaku tidak tahu skenario fs tidak ada tuh ...         |
+| 2022-10-31 14:37:34+00:00  | parsya21      | "Untuk menjaga kepercayaan masyarakat, Polri perlu melakukan perbaikan institusi secara menyeluruh," -- Puan Maharani ...                |
+
+#### 2. Preprocessing
+
+Tabel Hasil Preprocessing
+| Keterangan | Tweets |
+| ------------- | ------ |
+| Data Awal | @humaspoldajbr Mohon buat @PolhukamRI @DPR_RI @DivHumas_Polri .....perjelas payung hukum,supaya warga sekitar,tetangga , masyarakat setempat punya hak untuk mendobrak rumah tetangga jika terjadi indikasi kekerasan dan keanehan di rumah tersebut.supaya warga tidak takut.dan care pada sekitar. |
+| Data Cleaning | mohon buat perjelas payung hukum,supaya warga sekitar tetangga masyarakat setempat punya hak untuk mendobrak rumah tetangga jika terjadi indikasi kekerasan dan keanehan di rumah tersebut supaya warga tidak takut dan care pada sekitar |
+| Data Tokenizing | ['mohon', 'buat', 'perjelas', 'payung', 'hukum', 'supaya', 'warga', 'sekitar', 'tetangga', 'masyarakat', 'setempat', 'punya', 'hak', 'untuk', 'mendobrak', 'rumah', 'tetangga', 'jika', 'terjadi', 'indikasi', 'kekerasan', 'dan', 'keanehan', 'di', 'rumah', 'tersebut', 'supaya', 'warga', 'tidak', 'takut', 'dan', 'care', 'pada', 'sekitar'] |
+| Data Filtering | ['payung', 'hukum', 'warga', 'tetangga', 'masyarakat', 'hak', 'mendobrak', 'rumah', 'tetangga', 'indikasi', 'kekerasan', 'keanehan', 'rumah', 'warga', 'takut', 'care'] |
+| Data Stemming | ['payung', 'hukum', 'warga', 'tetangga', 'masyarakat', 'hak', 'dobrak', 'rumah', 'tetangga', 'indikasi', 'keras', 'keanehan', 'rumah', 'warga', 'takut', 'care'] |
+
+
+### Kesimpulan
+
+
+## Technologies Used
+- Google Colab
+- Python
+- NumPy
+- Pandas
+- TensorFlow
+- Matplotlib
+- Scikit-learn
+
+## Features
+
+
+## Setup
+
+
+## Usage
+
+
+## Project Status
+Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Text Mining.
+
+## Room for Improvement
+Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
+
+## Acknowledgements
+Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+
+## Contact
+Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
