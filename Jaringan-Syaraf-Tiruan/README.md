@@ -25,7 +25,14 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 </a>
 
 - [Papper](Dokumen/H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan proyek.
-- [Dataset](Dokumen/dataset.csv): Dataset yang digunakan dalam proyek.
+<a href="Dokumen/H1D020028_H1D020041_Tugas_Project_JST.pdf" title="Laporan proyek" target="_blank">
+  <img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/ea78bb2f-0965-4494-b5d4-b4115b269d47" alt="Laporan proyek" style="width: 500px">
+</a>
+
+- [Dataset](https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021): Dataset yang digunakan dalam proyek.
+<a href="https://data.jakarta.go.id/dataset/indeks-standar-pencemaran-udara-ispu-tahun-2021" title="Dataset" target="_blank">
+  <img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/39c98f03-2e79-4681-b47d-766fd3fe30c9" alt="Dataset" style="width: 500px">
+</a>
 
 ## General Information
 ### Project Mata Kuliah
