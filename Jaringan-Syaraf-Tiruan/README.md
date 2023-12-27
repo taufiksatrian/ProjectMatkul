@@ -31,7 +31,7 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
 
 ### Metode Penelitian
-<img width="234" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/2f685a23-d97b-4f1e-b888-e8405b9eb623">
+<img width="1200" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/f8ef604d-bfc6-4677-b09e-bcc5a9ccc155">
 
 ### Dataset
 Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU) Tahun 2021. Dataset ini berisi mengenai Indeks Standar Pencemar Udara (ISPU) yang diukur dari 5 stasiun pemantau kualitas udara (SPKU) yang ada di Provinsi DKI Jakarta Tahun 2021. Penjelasan variabel dari data diatas sebagai berikut :
