@@ -100,6 +100,9 @@ Tabel Dataset Hasil Data Cleaning
 #### 3. Split Data
 Split Data atau membagi dataset menjadi data training dan data testing diperlukan sebelum melakukan pemodelan. Hasil dari split data dengan perbandingan data training dan testing 80:20 menggunakan ‘test_size’ sebesar 0.2 serta menggunakan ‘random_state’ sebesar 42 untuk menginisialisasi data secara acak, menghasilkan data training dengan jumlah data 1213 dan data testing dengan jumlah data 304.
 
+![80_20](https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/6acd780f-35ef-4d83-8430-e8fd05e7f23c)
+
+
 #### 4. Pembangunan Model Backpropagation
 Pembangunan model menggunakan model backpropagation dengan model arsitektur Sequential. Input layer menggunakan fungsi aktivasi ReLU dengan jumlah units 6. Satu hidden layer menggunakan fungsi aktivasi ReLU dengan jumlah units 28. Output layer menggunakan fungsi aktivasi Softmax dengan jumlah units 3. Model backpropagation dibangun melalui beberapa tahap compile. Tahap compile menggunakan optimizer 'adam' untuk learning rate, loss function 'sparse_categorical_crossentropy' untuk klasifikasi multi-class, dan metrics 'accuracy' untuk menilai kinerja model.
 
@@ -122,7 +125,12 @@ Hasil pengujian dengan Loss dan Accuracy
 </div>
 
 Hasil pengujian dengan Confusion Matrix
-<img width="379" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/76a28b15-7f87-415d-8306-74118b09b67b">
+
+<img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/76a28b15-7f87-415d-8306-74118b09b67b">
+
+Data Klasifikasi Kualitas Udara di Provinsi DKI Jakarta 2021 
+
+<img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/086fa2c1-2935-41c3-a059-a798fdea6dbd">
 
 
 ## Technologies Used
