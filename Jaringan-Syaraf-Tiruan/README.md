@@ -110,7 +110,7 @@ Pembangunan model menggunakan model backpropagation dengan model arsitektur Sequ
 Gambar Arsitektur Model
 
 <p align="center">
-  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76">
+  <img width="200" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76">
 </p>
 
 #### 5. Pengujian Model Backpropagation
@@ -142,7 +142,7 @@ Data Klasifikasi Kualitas Udara di Provinsi DKI Jakarta 2021
   <img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/086fa2c1-2935-41c3-a059-a798fdea6dbd">
 </p>
 
-#### Kesimpulan
+### Kesimpulan
 Klasifikasi kualitas udara di Provinsi DKI Jakarta menggunakan **metode Backpropagation** berhasil diterapkan dengan hasil klasifikasi yang sangat baik berdasarkan **nilai loss function sebesar 0.1658** dan **nilai accuracy sebesar 0.9614**.
 
 **Kategori "Sedang"**:
