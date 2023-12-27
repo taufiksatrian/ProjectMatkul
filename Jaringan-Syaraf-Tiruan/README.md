@@ -11,7 +11,6 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
   - [General Information](#general-information)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
-  - [Tangkapan Layar](#tangkapan-layar)
   - [Setup](#setup)
   - [Usage](#usage)
   - [Project Status](#project-status)
