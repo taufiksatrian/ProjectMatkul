@@ -97,6 +97,7 @@ Tabel Hasil Feature Extractions
 | 0     | 0    | 0    | 1    | 1     | 0               | 0    | 1    | 1     | 0      | ... | 0     | 0        | 0     | 0     | 0      | 0        | 1    | 1      | 0     | 0     |
 | 0     | 0    | 1    | 0    | 0     | 0               | 1    | 0    | 0     | 1      | ... | 0     | 1        | 0     | 0     | 2      | 0        | 0    | 0      | 2     | 0     |
 | 1     | 1    | 0    | 0    | 0     | 1               | 0    | 0    | 0     | 0      | ... | 1     | 0        | 1     | 1     | 0      | 1        | 0    | 1      | 0     | 1     |
+
 Keterangan:
 - 0: Tidak muncul dalam teks
 - 1: Muncul dalam teks
