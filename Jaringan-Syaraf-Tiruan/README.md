@@ -7,7 +7,7 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 ## Table of Contents
 - [Klasifikasi Kualitas Udara di Provinsi DKI Jakarta Menggunakan Metode Backpropagation](#klasifikasi-kualitas-udara-di-provinsi-dki-jakarta-menggunakan-metode-backpropagation)
   - [Table of Contents](#table-of-contents)
-  - [Struktur File](#struktur-file)
+  - [File](#file)
   - [General Information](#general-information)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
@@ -18,7 +18,7 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
   - [Acknowledgements](#acknowledgements)
   - [Contact](#contact)
 
-## Struktur File
+## File
 - [Kode](Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
 <a href="Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb" title="Kode program" target="_blank">
   <img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/7a697f33-8cfa-4dbb-8d33-b8d876ef28c2" alt="Kode program" style="width: 500px">
