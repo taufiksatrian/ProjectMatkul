@@ -20,6 +20,10 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 
 ## Struktur File
 - [Kode](Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb): Berisi kode program utama.
+<a href="Dokumen/H1D020028_H1D020041_Klasifikasi_Backpropragation.ipynb" title="Kode program" target="_blank">
+  <img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/7a697f33-8cfa-4dbb-8d33-b8d876ef28c2" alt="Kode program" style="width: 500px">
+</a>
+
 - [Papper](Dokumen/H1D020028_H1D020041_Tugas_Project_JST.pdf): Laporan proyek.
 - [Dataset](Dokumen/dataset.csv): Dataset yang digunakan dalam proyek.
 
