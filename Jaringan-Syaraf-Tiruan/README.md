@@ -13,8 +13,6 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
   - [Features](#features)
   - [Tangkapan Layar](#tangkapan-layar)
   - [Setup](#setup)
-      - [Jupyter Notebook](#jupyter-notebook)
-      - [Google Colab](#google-colab)
   - [Usage](#usage)
   - [Project Status](#project-status)
   - [Room for Improvement](#room-for-improvement)
@@ -55,7 +53,7 @@ Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks St
 Dataset yang digunakan untuk klasifikasi kualitas udara di Provinsi DKI Jakarta berjumlah 1825 dengan 11 variabel terdiri dari tanggal, stasiun,
 pm10, pm25, so2, co2, co, no2, max, critical, dan categori
 
-Tabel Data Indeks Standar Pencemaran Udara (ISPU) pada Bulan Januari Tahun 2021
+Tabel Data Indeks Standar Pencemaran Udara (ISPU) Jakarta 2021
 | Tanggal       | Stasiun         | PM10 | PM25 | SO2 | CO | O3  | NO2 | Max | Critical | Kategori |
 |---------------|-----------------|------|------|-----|----|-----|-----|-----|----------|----------|
 | 2021-01-01    | DKI1 (Bunderan HI)| 38   | 53   | 29  | 6  | 31  | 13  | 53  | pm25     | SEDANG   |
@@ -64,6 +62,61 @@ Tabel Data Indeks Standar Pencemaran Udara (ISPU) pada Bulan Januari Tahun 2021
 | 2021-01-04    | DKI1 (Bunderan HI)| 30   | 48   | 24  | 4  | 32  | 7   | 48  | pm25     | BAIK     |
 | 2021-01-05    | DKI1 (Bunderan HI)| 38   | 53   | 24  | 6  | 31  | 9   | 53  | pm25     | SEDANG   |
 
+#### 2. Preprocessing Data
+Tahap Preprocessing Data yang pertama adalah dengan Data Selection dengan menyeleksi variabel yang dapat digunakan untuk pemodelan menjadi 6 variabel
+
+Tabel Dataset Hasil Data Selection
+| PM10 | PM25 | SO2 | CO | O3  | Kategori |
+|------|------|-----|----|-----|----------|
+| 38   | 53   | 29  | 6  | 31  | SEDANG   |
+| 27   | 46   | 27  | 7  | 47  | BAIK     |
+| 44   | 58   | 25  | 7  | 40  | SEDANG   |
+| 30   | 48   | 24  | 4  | 32  | BAIK     |
+| 38   | 53   | 24  | 6  | 31  | SEDANG   |
+
+Data Cleaning dengan menghapus data yang hilang (missing value), hasil data cleaning yaitu dataset berkurang menjadi 1517 data
+
+Tabel Dataset Hasil Data Cleaning
+| Variabel | Jumlah Non-Null |
+|------|------|
+| PM10 | 1517 |
+| PM25 | 1517 |
+| S02 | 1517 |
+| CO | 1517 |
+| O3 | 1517 |
+| Kategori | 1517 |
+
+Data Transformation menggunakan metode normalisasi Min-Max dan menggunakan Label Encoder untuk memberikan label pada data output
+
+Tabel Dataset Hasil Data Cleaning
+| pm10      | pm25      | so2       | co        | o3        | no2       | categori   |
+|-----------|-----------|-----------|-----------|-----------|-----------|------------|
+| 0.140244  | 0.248447  | 0.3375    | 0.097561  | 0.160839  | 0.161290  | 1          |
+| 0.073171  | 0.204969  | 0.3125    | 0.121951  | 0.272727  | 0.064516  | 2          |
+| 0.176829  | 0.279503  | 0.2875    | 0.121951  | 0.223776  | 0.161290  | 1          |
+| 0.091463  | 0.217391  | 0.2750    | 0.048780  | 0.167832  | 0.064516  | 2          |
+| 0.140244  | 0.248447  | 0.2750    | 0.097561  | 0.160839  | 0.096774  | 1          |
+
+#### 3. Split Data
+Split Data atau membagi dataset menjadi data training dan data testing diperlukan sebelum melakukan pemodelan. Hasil dari split data dengan perbandingan data training dan testing 80:20 menggunakan ‘test_size’ sebesar 0.2 serta menggunakan ‘random_state’ sebesar 42 untuk menginisialisasi data secara acak, menghasilkan data training dengan jumlah data 1213 dan data testing dengan jumlah data 304.
+
+#### 4. Pembangunan Model Backpropagation
+#### 5. Pengujian Model Backpropagation
+
+Tabel Hasil Pengujian 
+| Parameter Pengujian | Data Training | Data Testing |
+|--------------|---------------|--------------|
+| Loss         | 0.1832        | 0.1658       |
+| Accuracy     | 0.9413        | 0.9614       |
+
+Hasil pengujian dengan Loss dan Accuracy
+<div style="display: flex; justify-content: space-between;">
+  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/525a52bf-cc3c-4114-85ff-2d6516ec6ea3">
+  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/bed352fe-aa21-478a-b55f-6cffb8cae107">
+</div>
+
+Hasil pengujian dengan Confusion Matrix
+<img width="379" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/76a28b15-7f87-415d-8306-74118b09b67b">
 
 
 ## Technologies Used
