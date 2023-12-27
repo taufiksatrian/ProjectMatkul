@@ -134,8 +134,10 @@ Tabel Hasil Pengujian
 
 Hasil pengujian dengan Loss dan Accuracy
 <div style="display: flex; justify-content: space-between;">
-  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/525a52bf-cc3c-4114-85ff-2d6516ec6ea3">
-  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/bed352fe-aa21-478a-b55f-6cffb8cae107">
+  <p align="center">
+    <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/525a52bf-cc3c-4114-85ff-2d6516ec6ea3">
+    <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/bed352fe-aa21-478a-b55f-6cffb8cae107">
+  </p>
 </div>
 
 Selanjutnya, hasil pengujian model dievaluasi menggunakan Confusion Matrix untuk mendapatkan wawasan lebih mendalam tentang kinerja model pada tugas klasifikasi. Confusion Matrix memberikan gambaran yang detail mengenai sejauh mana model mampu mengklasifikasikan data ke dalam kategori yang benar.
@@ -143,13 +145,13 @@ Selanjutnya, hasil pengujian model dievaluasi menggunakan Confusion Matrix untuk
 Hasil pengujian dengan Confusion Matrix
 
 <p align="center">
-  <img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/76a28b15-7f87-415d-8306-74118b09b67b">
+  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/76a28b15-7f87-415d-8306-74118b09b67b">
 </p>
 
 Data Klasifikasi Kualitas Udara di Provinsi DKI Jakarta 2021 
 
 <p align="center">
-  <img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/086fa2c1-2935-41c3-a059-a798fdea6dbd">
+  <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/086fa2c1-2935-41c3-a059-a798fdea6dbd">
 </p>
 
 ### Kesimpulan
