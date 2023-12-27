@@ -2,9 +2,7 @@
 
 Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar bagi seluruh umat manusia untuk mempertahankan kehidupan yang layak. Oleh karena itu, manusia sangat membutuhkan kualitas lingkungan hidup yang baik, salah satunya adalah kualitas udara. Proses metabolisme yang terjadi pada tubuh makhluk hidup tidak dapat berlangsung tanpa adanya oksigen yang berasal dari udara. Udara juga memiliki beberapa kandungan zat-zat lain seperti karbon monoksida, karbon dioksida, sulfur dioksida, nitrogen oksida, ozon, dan zat lainnya yang, apabila melebihi batas wajar, dapat menyebabkan masalah serius pada kesehatan manusia. Di kota besar seperti DKI Jakarta, pencemaran udara merupakan salah satu masalah serius yang dihadapi oleh masyarakat. Berdasarkan situs pengamat kualitas udara aqicn.org pada tanggal 23 Juli 2019 pukul 17.00, DKI Jakarta menempati urutan 16 dari 100 negara teratas dengan polusi udara terburuk. Oleh karena itu, untuk memberikan informasi yang akurat dan cepat, perlu adanya sistem untuk mengklasifikasikan kualitas udara, salah satu metode yang dapat digunakan adalah Backpropagation. Pada penelitian ini, klasifikasi kualitas udara di Provinsi DKI Jakarta menggunakan metode Backpropagation berhasil diterapkan dengan hasil pengujian klasifikasi yang sangat baik berdasarkan nilai loss function sebesar 0.1658 dan nilai accuracy sebesar 0.9614.
 
-![image](https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/e84b66b1-f9b8-4c0e-860c-eec206773329)
-<img width="674" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/f1749bc0-3829-48ca-b1ab-c0978fdd162e">
-<img src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/e84b66b1-f9b8-4c0e-860c-eec206773329" alt="Image" width="600">
+<img width="900" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/f1749bc0-3829-48ca-b1ab-c0978fdd162e">
 
 ## Table of Contents
 - [Klasifikasi Kualitas Udara di Provinsi DKI Jakarta Menggunakan Metode Backpropagation](#klasifikasi-kualitas-udara-di-provinsi-dki-jakarta-menggunakan-metode-backpropagation)
