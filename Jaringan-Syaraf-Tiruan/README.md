@@ -38,6 +38,12 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 ### Project Mata Kuliah
 Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan Semester 5 Tahun 2022
 
+### Latar Belakang
+Di kota besar seperti DKI Jakarta, pencemaran udara merupakan salah satu masalah yang cukup serius yang perlu dihadapi oleh masyarakat DKI Jakarta. Berdasarkan situs pengamat kualitas udara aqicn.org tanggal 23 Juli 2019 pukul 17.00, DKI Jakarta menempati urutan 16 dari 100 negara teratas dengan polusi udara terburuk. Kualitas udara di DKI Jakarta mencapai level 155 US Air Index Quality (AIQ) yang mengindikasikan udara di DKI Jakarta tidak sehat. Udara dengan kategori tidak sehat dapat menyebabkan banyak masalah bagi kesehatan manusia. Efek yang ditimbulkan bergantung pada berapa lama seorang individu terpapar polusi dan kerentanan individu tersebut. Contoh yang ditimbulkan seperti mengalami gangguan pernapasan, mengalami vertigo, kejang mendadak, hilang kesadaran, mengaktifkan sel kanker dalam tubuh, bahkan dapat mengakibatkan kematian. Pencemaran udara bila tidak segera teratasi akan berdampak buruk bagi kehidupan makhluk hidup. Sehingga perlu adanya upaya tingkat lanjut guna mengatasi masalah tersebut.
+
+### Tujuan
+Penelitian ini bertujuan untuk mempermudah dalam mengklasifikasi kualitas udara di DKI Jakarta. Metode yang akan digunakan dalam melakukan klasifikasi adalah metode Backpropagation, karena berdasarkan penelitian-penelitian sebelumnya menunjukkan bahwa algoritma Backpropagation memiliki akurasi yang cukup tinggi dibandingkan algoritma lainnya.
+
 ### Metode Penelitian
 <img width="1200" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/f8ef604d-bfc6-4677-b09e-bcc5a9ccc155">
 
