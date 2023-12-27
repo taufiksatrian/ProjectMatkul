@@ -36,7 +36,7 @@ Dalam dunia kesehatan, lingkungan yang baik menjadi kebutuhan paling mendasar ba
 
 ## General Information
 ### Project Mata Kuliah
-Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan
+Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tiruan Semester 5 Tahun 2022
 
 ### Metode Penelitian
 <img width="1200" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/f8ef604d-bfc6-4677-b09e-bcc5a9ccc155">
