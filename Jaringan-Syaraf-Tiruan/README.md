@@ -35,29 +35,20 @@ Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tirua
 
 ### Dataset
 Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU) Tahun 2021. Dataset ini berisi mengenai Indeks Standar Pencemar Udara (ISPU) yang diukur dari 5 stasiun pemantau kualitas udara (SPKU) yang ada di Provinsi DKI Jakarta Tahun 2021. Penjelasan variabel dari data diatas sebagai berikut :
-| No | Variabel | Deskripsi |
-| ----------- | :---------: | ---------- |
-| 1 | tanggal | Tanggal pengukuran kualitas udara |
-| 2 | stasiun | Lokasi pengukuran di stasiun |
-| 3 | pm10 | Partikulat salah satu parameter yang diukur |
-| 4 | pm25 | Partikulat salah satu parameter yang diukur |
-| 5 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur |
-| 6 | co | Carbon Monoksida salah satu parameter yand diukur |
-| 7 | o3 | Ozon salah satu parameter yang diukur |
-| 8 | no2 | NItrogen dioksida salah satu parameter yang diukur |
-| 9 | max | Nilai ukur paling tinggi dari seluruh parameter yang diukur dalam waktu yang sama |
-| 10 | critical | Parameter yang hasil pengukurannya paling tinggi |
-| 11 | categori | Kategori hasil perhitungan indeks standar pencemaran udara |
+| No | Variabel | Deskripsi | Digunakan |
+| ----------- | :---------: | ---------- | ---------- |
+| 1 | tanggal | Tanggal pengukuran kualitas udara | x |
+| 2 | stasiun | Lokasi pengukuran di stasiun | x |
+| 3 | pm10 | Partikulat salah satu parameter yang diukur | ✓ |
+| 4 | pm25 | Partikulat salah satu parameter yang diukur | ✓ |
+| 5 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur | ✓ |
+| 6 | co | Carbon Monoksida salah satu parameter yand diukur | ✓ |
+| 7 | o3 | Ozon salah satu parameter yang diukur | ✓ | 
+| 8 | no2 | NItrogen dioksida salah satu parameter yang diukur | x |
+| 9 | max | Nilai ukur paling tinggi dari seluruh parameter yang diukur dalam waktu yang sama | x |
+| 10 | critical | Parameter yang hasil pengukurannya paling tinggi | x |
+| 11 | categori | Kategori hasil perhitungan indeks standar pencemaran udara | ✓ |
 
-Variabel yang digunakan untuk penelitian ini sebagai berikut
-| No | Variabel | Deskripsi |
-| ----------- | :---------: | ---------- |
-| 1 | pm10 | Partikulat salah satu parameter yang diukur |
-| 2 | pm25 | Partikulat salah satu parameter yang diukur |
-| 3 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur |
-| 4 | co | Carbon Monoksida salah satu parameter yand diukur |
-| 5 | o3 | Ozon salah satu parameter yang diukur |
-| 6 | categori | Kategori hasil perhitungan indeks standar pencemaran udara |
 
 ### Hasil dan Pembahasan
 #### 1. Pengumpulan Data
