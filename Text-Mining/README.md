@@ -78,6 +78,32 @@ Tabel Hasil Preprocessing
 | Data Filtering | ['payung', 'hukum', 'warga', 'tetangga', 'masyarakat', 'hak', 'mendobrak', 'rumah', 'tetangga', 'indikasi', 'kekerasan', 'keanehan', 'rumah', 'warga', 'takut', 'care'] |
 | Data Stemming | ['payung', 'hukum', 'warga', 'tetangga', 'masyarakat', 'hak', 'dobrak', 'rumah', 'tetangga', 'indikasi', 'keras', 'keanehan', 'rumah', 'warga', 'takut', 'care'] |
 
+#### 3. Labelling
+
+Tabel Hasil Labelling
+| Text | Label | Klasifikasi |
+| --- | --- | --- |
+| sambang obyek vital bhabinkamtibmas aiptu sisw... | 1 | Positif |
+| arah kudeta bos polri tni diam gerak tangkap t... | 0 | Netral |
+| tinggal kipi berat banding hidup sehat | 0 | Netral |
+| kasih contoh polisi | 0 | Netral |
+| pantesan lawan kakak tunggu sakit | 0 | Netral |
+
+#### 4. Feature Extractions
+
+Tabel Hasil Feature Extractions
+| aiptu | aman | aneh | arah | barat | bhabinkamtibmas | care | cari | cocok | dobrak | ... | sehat | siswanto | takut | terap | tertib | tetangga | usul | victim | vital | warga |
+|-------|------|------|------|-------|-----------------|------|------|-------|--------|-----|-------|----------|-------|-------|--------|----------|------|-------|-------|-------|
+| 0     | 0    | 0    | 1    | 1     | 0               | 0    | 1    | 1     | 0      | ... | 0     | 0        | 0     | 0     | 0      | 0        | 1    | 1      | 0     | 0     |
+| 0     | 0    | 1    | 0    | 0     | 0               | 1    | 0    | 0     | 1      | ... | 0     | 1        | 0     | 0     | 2      | 0        | 0    | 0      | 2     | 0     |
+| 1     | 1    | 0    | 0    | 0     | 1               | 0    | 0    | 0     | 0      | ... | 1     | 0        | 1     | 1     | 0      | 1        | 0    | 1      | 0     | 1     |
+Keterangan:
+- 0: Tidak muncul dalam teks
+- 1: Muncul dalam teks
+- angka: Frekuensi kemunculan dalam teks
+
+#### 5. Split Data
+#### 6. Model
 
 ### Kesimpulan
 
