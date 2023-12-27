@@ -33,19 +33,19 @@ Project disusun untuk memenuhi penilaian akhir mata kuliah Jaringan Syaraf Tirua
 
 ### Dataset
 Dataset berasal dari [data.jakarta.go.id](https://data.jakarta.go.id/) Indeks Standar Pencemaran Udara (ISPU) Tahun 2021. Dataset ini berisi mengenai Indeks Standar Pencemar Udara (ISPU) yang diukur dari 5 stasiun pemantau kualitas udara (SPKU) yang ada di Provinsi DKI Jakarta Tahun 2021. Penjelasan variabel dari data diatas sebagai berikut :
-| No | Variabel | Deskripsi | Digunakan |
-| ----------- | :---------: | ---------- | ---------- |
-| 1 | tanggal | Tanggal pengukuran kualitas udara | x |
-| 2 | stasiun | Lokasi pengukuran di stasiun | x |
-| 3 | pm10 | Partikulat salah satu parameter yang diukur | ✓ |
-| 4 | pm25 | Partikulat salah satu parameter yang diukur | ✓ |
-| 5 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur | ✓ |
-| 6 | co | Carbon Monoksida salah satu parameter yand diukur | ✓ |
-| 7 | o3 | Ozon salah satu parameter yang diukur | ✓ | 
-| 8 | no2 | NItrogen dioksida salah satu parameter yang diukur | x |
-| 9 | max | Nilai ukur paling tinggi dari seluruh parameter yang diukur dalam waktu yang sama | x |
-| 10 | critical | Parameter yang hasil pengukurannya paling tinggi | x |
-| 11 | categori | Kategori hasil perhitungan indeks standar pencemaran udara | ✓ |
+| No | Variabel | Deskripsi | 
+| ----------- | :---------: | ---------- | 
+| 1 | tanggal | Tanggal pengukuran kualitas udara |
+| 2 | stasiun | Lokasi pengukuran di stasiun |
+| 3 | pm10 | Partikulat salah satu parameter yang diukur | 
+| 4 | pm25 | Partikulat salah satu parameter yang diukur | 
+| 5 | so2 | Sulfida (dalam bentuk SO2) salah satu parameter yang diukur 
+| 6 | co | Carbon Monoksida salah satu parameter yand diukur | 
+| 7 | o3 | Ozon salah satu parameter yang diukur | 
+| 8 | no2 | NItrogen dioksida salah satu parameter yang diukur |
+| 9 | max | Nilai ukur paling tinggi dari seluruh parameter yang diukur dalam waktu yang sama | 
+| 10 | critical | Parameter yang hasil pengukurannya paling tinggi | 
+| 11 | categori | Kategori hasil perhitungan indeks standar pencemaran udara | 
 
 
 ### Hasil dan Pembahasan
@@ -107,10 +107,13 @@ Split Data atau membagi dataset menjadi data training dan data testing diperluka
 Pembangunan model menggunakan model backpropagation dengan model arsitektur Sequential. Input layer menggunakan fungsi aktivasi ReLU dengan jumlah units 6. Satu hidden layer menggunakan fungsi aktivasi ReLU dengan jumlah units 28. Output layer menggunakan fungsi aktivasi Softmax dengan jumlah units 3. Model backpropagation dibangun melalui beberapa tahap compile. Tahap compile menggunakan optimizer 'adam' untuk learning rate, loss function 'sparse_categorical_crossentropy' untuk klasifikasi multi-class, dan metrics 'accuracy' untuk menilai kinerja model.
 
 Gambar Arsitektur Model
-<img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76">
 
+<p align="center">
+  <img width="800" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/fdaa2872-d9c4-42cf-9734-68cb5ec99f76">
+</p>
 
 #### 5. Pengujian Model Backpropagation
+Pengujian model backpropagation telah memberikan hasil yang sangat baik, terindikasi dari nilai loss dan accuracy pada data training dan testing yang optimal. Selain itu, hasil yang diperoleh menunjukkan ketidakmunculan gejala overfitting, menandakan kemampuan generalisasi yang baik dari model.
 
 Tabel Hasil Pengujian 
 | Parameter Pengujian | Data Training | Data Testing |
@@ -123,6 +126,8 @@ Hasil pengujian dengan Loss dan Accuracy
   <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/525a52bf-cc3c-4114-85ff-2d6516ec6ea3">
   <img width="400" alt="image" src="https://github.com/taufiksatrian/ProjectMatkul/assets/72427297/bed352fe-aa21-478a-b55f-6cffb8cae107">
 </div>
+
+Selanjutnya, hasil pengujian model dievaluasi menggunakan Confusion Matrix untuk mendapatkan wawasan lebih mendalam tentang kinerja model pada tugas klasifikasi. Confusion Matrix memberikan gambaran yang detail mengenai sejauh mana model mampu mengklasifikasikan data ke dalam kategori yang benar.
 
 Hasil pengujian dengan Confusion Matrix
 
