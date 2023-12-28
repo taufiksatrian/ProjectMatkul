@@ -62,7 +62,7 @@ Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Data 
 ## Room for Improvement
 
 ## Acknowledgements
-Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+Terima kasih kepada ... selaku partner saya dalam mengerjakan proyek mata kuliah ini.
 
 ## Contact
 Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
