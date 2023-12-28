@@ -26,8 +26,8 @@ Data yang berada dan digunakan pada perguruan tinggi bermacam-macam seperti data
 </a>
 
 ## General Information
-### Project Gemastik 
-Project disusun untuk memenuhi penilaian perlombaan Gemastik Data Mining Tahun 2022
+### Project Mata Kuliah
+Project disusun untuk memenuhi penilaian akhir mata kuliah Data Warehouse Semester 5 Tahun 2022
 
 ### Latar Belakang
 
@@ -50,13 +50,12 @@ Project disusun untuk memenuhi penilaian perlombaan Gemastik Data Mining Tahun 2
 ## Usage
 
 ## Project Status
-Proyek sudah selesai dilaksanakan menyelesaikan perlombaan Gemastik Data Mining.
+Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Data Warehouse.
 
 ## Room for Improvement
-Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
 
 ## Acknowledgements
-Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+Terima kasih kepada ... selaku partner saya dalam mengerjakan proyek mata kuliah ini.
 
 ## Contact
 Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
