@@ -62,10 +62,9 @@ Project disusun untuk memenuhi penilaian perlombaan Gemastik Data Mining Tahun 2
 Proyek sudah selesai dilaksanakan menyelesaikan perlombaan Gemastik Data Mining.
 
 ## Room for Improvement
-Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
 
 ## Acknowledgements
-Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+Terima kasih kepada ... selaku partner saya dalam mengerjakan proyek Gemastik ini.
 
 ## Contact
 Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
