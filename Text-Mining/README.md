@@ -110,31 +110,20 @@ Keterangan:
 
 
 ## Technologies Used
-- Google Colab
-- Python
-- NumPy
-- Pandas
-- TensorFlow
-- Matplotlib
-- Scikit-learn
 
 ## Features
 
-
 ## Setup
 
-
 ## Usage
-
 
 ## Project Status
 Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Text Mining.
 
 ## Room for Improvement
-Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
 
 ## Acknowledgements
-Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
+Terima kasih kepada Azmi Taqiyudin selaku partner saya dalam mengerjakan proyek mata kuliah ini.
 
 ## Contact
 Created by [@taufiksatrian](https://github.com/taufiksatrian) - feel free to contact me!
