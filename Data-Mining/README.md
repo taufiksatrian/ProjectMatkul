@@ -48,30 +48,18 @@ Project disusun untuk memenuhi penilaian akhir mata kuliah Data Mining Semester 
 
 ### Kesimpulan
 
-
 ## Technologies Used
-- Google Colab
-- Python
-- NumPy
-- Pandas
-- TensorFlow
-- Matplotlib
-- Scikit-learn
 
 ## Features
 
-
 ## Setup
-
 
 ## Usage
 
-
 ## Project Status
-Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Text Mining.
+Proyek sudah selesai dilaksanakan dan mendapatkan Nilai A pada mata kuliah Data Mining.
 
 ## Room for Improvement
-Kedepannya, proyek dapat dikembangkan dan dilanjutkan ke tahap deployment. Dapat menggunakan Streamlit untuk deployment sehingga model dapat dijalankan untuk prediksi data baru.
 
 ## Acknowledgements
 Terima kasih kepada Azmi selaku partner saya dalam mengerjakan proyek mata kuliah ini.
